@@ -61,6 +61,12 @@ const IntegratedHeader = () => {
         {/* 3. Right Side: Reimagined CTA & Mobile Toggle */}
         <div className="flex items-center gap-3 lg:gap-4">
           <Link
+            href="/admin"
+            className="inline-block px-4 py-2 md:px-5 md:py-3 text-xs md:text-sm font-semibold text-slate-300 border-2 border-transparent hover:border-slate-700 rounded-full hover:bg-slate-800 transition-all shadow-sm"
+          >
+            Admin
+          </Link>
+          <Link
             href="/contact#booking"
             className="inline-block px-4 py-2 md:px-7 md:py-3 text-xs md:text-sm font-semibold text-teal-400 border-2 border-teal-400 rounded-full hover:bg-teal-400 hover:text-slate-900 transition-all shadow-md group"
           >
